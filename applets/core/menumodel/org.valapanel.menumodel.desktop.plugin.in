@@ -1,0 +1,3 @@
+[Plugin]
+Name=Applications Menu
+Description=Applications or custom menu in GMenuModel format.

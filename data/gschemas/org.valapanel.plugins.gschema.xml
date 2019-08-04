@@ -1,0 +1,83 @@
+<schemalist>
+  <schema id="org.valapanel.thermal">
+    <key name="auto-temperature-levels" type="b">
+      <default>true</default>
+    </key>
+    <key name="use-auto-location" type="b">
+      <default>true</default>
+    </key>
+    <key name="sensor-location" type="s">
+      <default>''</default>
+    </key>
+    <key name="warning-color-1" type="s">
+      <default>'yellow'</default>
+    </key>
+    <key name="warning-color-2" type="s">
+      <default>'red'</default>
+    </key>
+    <key name="warning-temperature-1" type="i">
+      <default>60</default>
+    </key>
+    <key name="warning-temperature-2" type="i">
+      <default>65</default>
+    </key>
+    <key name="normal-color" type="s">
+      <default>'green'</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.monitors">
+    <key name="display-cpu-monitor" type="b">
+      <default>true</default>
+    </key>
+    <key name="cpu-color" type="s">
+      <default>'red'</default>
+    </key>
+    <key name="cpu-width" type="i">
+      <default>40</default>
+    </key>
+    <key name="display-ram-monitor" type="b">
+      <default>true</default>
+    </key>
+    <key name="ram-color" type="s">
+      <default>'green'</default>
+    </key>
+    <key name="ram-width" type="i">
+      <default>40</default>
+    </key>
+    <key name="display-swap-monitor" type="b">
+      <default>true</default>
+    </key>
+    <key name="swap-color" type="s">
+      <default>'yellow'</default>
+    </key>
+    <key name="swap-width" type="i">
+      <default>40</default>
+    </key>
+    <key name="click-action" type="s">
+      <default>'lxtask'</default>
+    </key>
+  </schema>
+    <schema id="org.valapanel.netmon">
+    <key name="interface" type="s">
+      <default>'lo'</default>
+    </key>
+    <key name="tx-color" type="s">
+      <default>'teal'</default>
+    </key>
+    <key name="rx-color" type="s">
+      <default>'cyan'</default>
+    </key>
+    <key name="width" type="i">
+      <default>40</default>
+    </key>
+    <key name="average-samples-precision" type="i">
+      <default>2</default>
+    </key>
+    <key name="draw-as-bar" type="b">
+      <default>false</default>
+    </key>
+    <key name="click-action" type="s">
+      <default>'lxtask'</default>
+    </key>
+  </schema>
+</schemalist>

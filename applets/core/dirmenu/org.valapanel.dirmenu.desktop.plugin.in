@@ -1,0 +1,3 @@
+[Plugin]
+Name=Directory menu
+Description=This menu shows filesystem hierarchy, started from given dir.

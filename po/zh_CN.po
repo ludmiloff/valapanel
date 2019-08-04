@@ -1,0 +1,783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# ideal <05281253@bjtu.edu.cn>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: vala-panel 0.3.73\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-19 22:09+0300\n"
+"PO-Revision-Date: 2018-02-02 21:13+0800\n"
+"Last-Translator: Wei Cui <ghostplant@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.6.0-rc1\n"
+"X-POOTLE-MTIME: 1408588234.000000\n"
+
+#: ../lib/generic-config-dialog.c:94 ../lib/generic-config-dialog.c:117
+msgid "Select a file"
+msgstr "选择文件"
+
+#: ../lib/generic-config-dialog.c:194
+msgid "_Close"
+msgstr "关闭（_C）"
+
+#: ../lib/misc.c:192 ../lib/misc.c:208 ../lib/toplevel.c:435
+#: ../applets/core/launchbar/launchbar-config.vala:211
+msgid "Error"
+msgstr "错误"
+
+#: ../lib/toplevel.c:433
+msgid "There is no room for another panel. All the edges are taken."
+msgstr "没有额外空间创建新面板，所有边缘已经被使用。"
+
+#: ../lib/toplevel.c:459
+msgid ""
+"Really delete this panel?\n"
+"<b>Warning:This can not be recovered.</b>"
+msgstr "是否确认删除此面板？\n"
+"<b>警告：本操作不可撤销。</b>"
+
+#: ../lib/toplevel.c:462
+msgid "Confirm"
+msgstr "确认"
+
+#: ../app/application.c:34
+msgid "Run command on already opened panel"
+msgstr "在已打开的面板上运行命令"
+
+#: ../app/application.c:75
+msgid "Print version and exit"
+msgstr "显示版本并退出"
+
+#: ../app/application.c:76
+msgid "Use specified profile"
+msgstr "使用自定义配置文件"
+
+#: ../app/application.c:76
+msgid "profile"
+msgstr "配置文件"
+
+#: ../app/application.c:77
+msgid "cmd"
+msgstr "命令"
+
+#: ../app/application.c:228
+#, c-format
+msgid "%s - Version %s\n"
+msgstr "%s - 版本 %s\n"
+
+#: ../app/application.c:259
+#, c-format
+msgid ""
+"%s: invalid command - %s. Doing nothing.\n"
+"Valid commands: %s\n"
+msgstr ""
+"%s： 非法命令 - %s。 取消操作。\n"
+"合法命令： %s\n"
+
+#: ../app/application.c:515
+msgid "No panel with this name found.\n"
+msgstr "没有找到该名称的面板。\n"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-widget.c:3294
+msgid "Mi_nimize All"
+msgstr "最小化所有窗口（_n）"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-widget.c:3302
+msgid "Un_minimize All"
+msgstr "撤销最小化所有窗口（_m）"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-widget.c:3310
+msgid "Ma_ximize All"
+msgstr "最大化所有窗口（_x）"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-widget.c:3318
+msgid "_Unmaximize All"
+msgstr "撤销最大化所有窗口（_U）"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-widget.c:3330
+msgid "_Close All"
+msgstr "关闭所有窗口（_C）"
+
+#: ../lib/configurator.vala:88 ../lib/configurator.vala:145
+msgid "All"
+msgstr "所有"
+
+#: ../lib/configurator.vala:145
+msgid "%d"
+msgstr "%d"
+
+#: ../lib/configurator.vala:218
+msgid "Currently loaded plugins"
+msgstr "当前已加载组件"
+
+#: ../lib/configurator.vala:227
+msgid "Stretch"
+msgstr "拉伸"
+
+#: ../lib/configurator.vala:287
+msgid "Available plugins"
+msgstr "可用组件"
+
+#: ../applets/core/clock/clock.vala:100
+msgid "Clock Format"
+msgstr "时钟格式"
+
+#: ../applets/core/clock/clock.vala:101
+msgid "Tooltip Format"
+msgstr "提示框格式"
+
+#: ../applets/core/clock/clock.vala:102
+msgid "Format codes: man 3 strftime; %n for line break"
+msgstr "格式代码：man 3 strftime; %n 代表换行"
+
+#: ../applets/core/clock/clock.vala:103 ../applets/wnck/deskno/deskno.vala:67
+msgid "Bold font"
+msgstr "加粗"
+
+#: ../applets/core/dirmenu/dirmenu.vala:143
+msgid "_Open"
+msgstr "打开（_O）"
+
+#: ../applets/core/dirmenu/dirmenu.vala:150
+msgid "Open in _Terminal"
+msgstr "在终端中打开（_T）"
+
+#: ../applets/core/dirmenu/dirmenu.vala:194
+msgid "Directory"
+msgstr "目录"
+
+#: ../applets/core/dirmenu/dirmenu.vala:195
+msgid "Label"
+msgstr "标签"
+
+#: ../applets/core/dirmenu/dirmenu.vala:196
+#: ../applets/core/menumodel/menumodel.vala:115
+#: ../applets/core/launchbar/config.ui:135
+msgid "Icon"
+msgstr "图标"
+
+#: ../applets/core/kbled/kbled.vala:71
+#: ../applets/core/kbled/kbled.desktop.plugin.in:4
+msgid "Keyboard LED"
+msgstr "键盘指示灯"
+
+#: ../applets/core/kbled/kbled.vala:73
+msgid "Show CapsLock"
+msgstr "显示 CapsLock"
+
+#: ../applets/core/kbled/kbled.vala:74
+msgid "Show NumLock"
+msgstr "显示 NumLock"
+
+#: ../applets/core/launchbar/launchbar-button.vala:46
+msgid "Bootstrap"
+msgstr "引导程序"
+
+#: ../applets/core/launchbar/launchbar-config.vala:68
+msgid "Quicklaunch already contains this URI.\n"
+msgstr "快速启动栏已经包含此 URI。\n"
+
+#: ../applets/core/launchbar/launchbar-config.vala:91
+msgid "Quicklaunch already contains this application.\n"
+msgstr "快速启动栏已经包含这个应用程序。\n"
+
+#: ../applets/core/launchbar/launchbar-config.vala:155
+msgid ""
+"Failed to add directory content.\n"
+" Adding current directory as launcher."
+msgstr ""
+"添加目录内容失败。\n"
+" 添加当前目录为其启动器。"
+
+#: ../applets/core/menumodel/menu-maker.vala:100
+msgid "Home"
+msgstr "主目录"
+
+#: ../applets/core/menumodel/menu-maker.vala:111
+msgid "Desktop"
+msgstr "桌面"
+
+#: ../applets/core/menumodel/menu-maker.vala:128
+msgid "Search..."
+msgstr "搜索..."
+
+#: ../applets/core/menumodel/menu-maker.vala:156
+msgid "Control center"
+msgstr "控制中心"
+
+#: ../applets/core/menumodel/menu-maker.vala:175
+#: ../applets/core/launchbar/config.ui:38
+msgid "Applications"
+msgstr "应用程序"
+
+#: ../applets/core/menumodel/menu-maker.vala:179
+#: ../applets/core/menumodel/menu-maker.vala:187
+msgid "Places"
+msgstr "位置"
+
+#: ../applets/core/menumodel/menu-maker.vala:180
+#: ../applets/core/menumodel/system-menus.ui:40
+msgid "System"
+msgstr "系统工具"
+
+#: ../applets/core/menumodel/menu-maker.vala:184
+#: ../data/desktop/org.valapanel.application.desktop.in:4
+msgid "Vala Panel"
+msgstr ""
+
+#: ../applets/core/menumodel/menumodel.vala:111
+msgid ""
+"If internal menu is enabled, menu file will not be used, predefeined menu "
+"will be used instead."
+msgstr ""
+"如果使用内部菜单，则菜单文件将会被预定义菜单替代使用。"
+
+#: ../applets/core/menumodel/menumodel.vala:112
+msgid "Is internal menu"
+msgstr "是否为内部菜单"
+
+#: ../applets/core/menumodel/menumodel.vala:113
+msgid "Is system menu (can be keybound)"
+msgstr "是否为系统菜单（可绑定按键）"
+
+#: ../applets/core/menumodel/menumodel.vala:114
+msgid "Is Menubar"
+msgstr "是否为主菜单"
+
+#: ../applets/core/menumodel/menumodel.vala:116
+msgid "Caption (for button only)"
+msgstr "标题（仅用于按钮）"
+
+#: ../applets/core/menumodel/menumodel.vala:117
+msgid "Menu file name"
+msgstr "菜单文件名称"
+
+#: ../applets/core/separator/separator.vala:64 ../lib/pref.ui:566
+msgid "Size"
+msgstr "大小"
+
+#: ../applets/core/separator/separator.vala:65
+msgid "Visible separator"
+msgstr "可见分割符"
+
+#: ../applets/drawing/monitors/monitors.vala:250
+msgid "CPU usage: %.2f%%"
+msgstr "CPU 使用率：%.2f%%"
+
+#: ../applets/drawing/monitors/monitors.vala:338
+msgid "RAM usage: %.1fMB (%.2f%%)"
+msgstr "内存使用率：%.1fMB (%.2f%%)"
+
+#: ../applets/drawing/monitors/monitors.vala:397
+msgid "Display CPU usage"
+msgstr "显示 CPU 使用率"
+
+#: ../applets/drawing/monitors/monitors.vala:398
+msgid "CPU color"
+msgstr "CPU 颜色"
+
+#: ../applets/drawing/monitors/monitors.vala:399
+msgid "Display RAM usage"
+msgstr "显示内存使用率"
+
+#: ../applets/drawing/monitors/monitors.vala:400
+msgid "RAM color"
+msgstr "内存颜色"
+
+#: ../applets/drawing/monitors/monitors.vala:401
+msgid "Action when clicked"
+msgstr "点击时动作"
+
+#: ../applets/wnck/deskno/deskno.vala:68
+msgid "Display desktop names"
+msgstr "显示桌面名称"
+
+#: ../applets/wnck/icontasks/buttons.vala:92
+msgid "Pin to panel"
+msgstr "添加到面板"
+
+#: ../applets/wnck/icontasks/buttons.vala:93
+#: ../applets/wnck/icontasks/buttons.vala:449
+msgid "Unpin from panel"
+msgstr "从面板中删除"
+
+#: ../applets/wnck/pager/pager.vala:95
+msgid "Workspaces..."
+msgstr "工作区..."
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.vala:81
+#: ../applets/wnck/tasklist/tasklist.vala:97
+msgid "Show windows from all desktops"
+msgstr "显示所有桌面的窗口"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.vala:82
+#: ../applets/wnck/tasklist/tasklist.vala:98
+msgid "Show window`s workspace on unminimize"
+msgstr "显示非最小化的窗口工作区"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.vala:83
+#: ../applets/wnck/tasklist/tasklist.vala:99
+msgid "Close windows on middle click"
+msgstr "鼠标中键点击关闭所有窗口"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.vala:84
+#: ../applets/wnck/tasklist/tasklist.vala:100
+msgid "Group windows when needed"
+msgstr "按需分组窗口"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.vala:85
+msgid "Show task labels"
+msgstr "显示任务标签"
+
+#: ../applets/wnck/tasklist/tasklist.vala:101
+msgid "Ungrouped buttons limit"
+msgstr "取消分组数量限制"
+
+#: ../applets/wnck/tasklist/tasklist.vala:102
+msgid "Unexpanded size limit"
+msgstr "取消展开数量限制"
+
+#: ../applets/wnck/wincmd/wincmd.vala:87
+msgid "Alternately iconify/shade and raise"
+msgstr "交替显示/隐藏与卷起"
+
+#: ../lib/panel-menus.ui:6
+msgid "Configure applet..."
+msgstr "配置组件"
+
+#: ../lib/panel-menus.ui:11
+msgid "Remove applet"
+msgstr "删除组件"
+
+#: ../lib/panel-menus.ui:18
+msgid "Panel Items..."
+msgstr "添加/删除组件"
+
+#: ../lib/panel-menus.ui:25
+msgid "Panel Settings..."
+msgstr "面板设置"
+
+#: ../lib/panel-menus.ui:30
+msgid "New Panel"
+msgstr "新建面板"
+
+#: ../lib/panel-menus.ui:34
+msgid "Remove this Panel"
+msgstr "删除该面板"
+
+#: ../lib/panel-menus.ui:40
+msgid "Application Settings"
+msgstr "更改组件选项"
+
+#: ../lib/panel-menus.ui:44
+msgid "About"
+msgstr "关于"
+
+#: ../lib/pref.ui:41
+msgid "Panel preferences"
+msgstr "面板首选项"
+
+#: ../lib/pref.ui:94
+msgid "Edge:"
+msgstr "边缘："
+
+#: ../lib/pref.ui:109
+msgid "Monitor:"
+msgstr "显示："
+
+#: ../lib/pref.ui:121
+msgid "Advanced properties"
+msgstr "高级属性"
+
+#: ../lib/pref.ui:138
+msgid "Count as dock:"
+msgstr "记为边栏："
+
+#: ../lib/pref.ui:150
+msgid "Reserve space:"
+msgstr "占据空间："
+
+#: ../lib/pref.ui:186
+msgid "Placement properties"
+msgstr "放置属性"
+
+#: ../lib/pref.ui:423
+msgid "Position"
+msgstr "位置"
+
+#: ../lib/pref.ui:449
+msgid "Icon size in px:"
+msgstr "图标（px）："
+
+#: ../lib/pref.ui:461
+msgid "Height in px:"
+msgstr "高度（px）："
+
+#: ../lib/pref.ui:486
+msgid "Width:"
+msgstr "宽度（px）："
+
+#: ../lib/pref.ui:510
+msgid "Size properties"
+msgstr "大小属性"
+
+#: ../lib/pref.ui:527
+msgid "Automatic hide panel"
+msgstr "自动隐藏面板"
+
+#: ../lib/pref.ui:556
+msgid "Autohide:"
+msgstr "自动隐藏："
+
+#: ../lib/pref.ui:582
+msgid "Foreground color:"
+msgstr "前景色："
+
+#: ../lib/pref.ui:594
+msgid "Background image:"
+msgstr "背景图："
+
+#: ../lib/pref.ui:606
+msgid "Background color:"
+msgstr "背景色："
+
+#: ../lib/pref.ui:618
+msgid "Font:"
+msgstr "字体："
+
+#: ../lib/pref.ui:630
+msgid "Round corners size:"
+msgstr "圆角："
+
+#: ../lib/pref.ui:706
+msgid "Select background color"
+msgstr "选择背景色"
+
+#: ../lib/pref.ui:720
+msgid "Select foreground color"
+msgstr "选择前景色"
+
+#: ../lib/pref.ui:733
+msgid "Select an Image"
+msgstr "选择图片"
+
+#: ../lib/pref.ui:752
+msgid "Select panel font"
+msgstr "选择面板字体"
+
+#: ../lib/pref.ui:764
+msgid "Size only"
+msgstr "仅大小"
+
+#: ../lib/pref.ui:789
+msgid "Appearance"
+msgstr "外观"
+
+#: ../lib/pref.ui:969
+msgid "Plugins"
+msgstr "组件"
+
+#: ../app/app-about.ui:11
+msgid "Simple GTK+ desktop panel. "
+msgstr "简单的 GTK+ 桌面面板"
+
+#: ../app/app-about.ui:13
+msgid "https://vala-panel.github.io"
+msgstr "https://vala-panel.github.io"
+
+#. Replace this string by your names, one name per line.
+#: ../app/app-about.ui:29
+msgid "translator-credits"
+msgstr ""
+
+#: ../app/app-pref.ui:8
+msgid "Application preferences"
+msgstr "应用首选项"
+
+#: ../app/app-pref.ui:52
+msgid "Logout manager..."
+msgstr "注销管理..."
+
+#: ../app/app-pref.ui:68
+msgid "Shutdown application..."
+msgstr "关闭应用程序..."
+
+#: ../app/app-pref.ui:82
+msgid "Preferred Applications:"
+msgstr "偏好应用程序："
+
+#: ../app/app-pref.ui:108
+msgid "Use dark theme"
+msgstr "使用 dark 主题"
+
+#: ../app/app-pref.ui:129
+msgid "Use custom CSS"
+msgstr "使用自定义样式"
+
+#: ../app/app-pref.ui:148
+msgid "Select a CSS File"
+msgstr "选择样式文件"
+
+#: ../app/app-pref.ui:170
+msgid "Widget Style"
+msgstr "窗体风格"
+
+#: ../applets/core/launchbar/config.ui:33
+msgid "Add launcher from installed applications"
+msgstr "添加现有应用到启动器"
+
+#: ../applets/core/launchbar/config.ui:63
+msgid "Add all displayed files"
+msgstr "添加所有显示的文件"
+
+#: ../applets/core/launchbar/config.ui:80
+msgid "Files"
+msgstr "文件"
+
+#: ../applets/core/launchbar/config.ui:148
+msgid "Name"
+msgstr "名称"
+
+#: ../applets/core/menumodel/system-menus.ui:5
+msgid "Audio and Video"
+msgstr "影音"
+
+#: ../applets/core/menumodel/system-menus.ui:10
+msgid "Education"
+msgstr "教育"
+
+#: ../applets/core/menumodel/system-menus.ui:15
+msgid "Game"
+msgstr "游戏"
+
+#: ../applets/core/menumodel/system-menus.ui:20
+msgid "Graphics"
+msgstr "图形"
+
+#: ../applets/core/menumodel/system-menus.ui:25
+#: ../applets/core/menumodel/system-menus.ui:81
+msgid "Network"
+msgstr "互联网"
+
+#: ../applets/core/menumodel/system-menus.ui:30
+msgid "Office"
+msgstr "办公"
+
+#: ../applets/core/menumodel/system-menus.ui:35
+msgid "Settings"
+msgstr "首选项"
+
+#: ../applets/core/menumodel/system-menus.ui:45
+msgid "Utility"
+msgstr "附件"
+
+#: ../applets/core/menumodel/system-menus.ui:50
+msgid "Development"
+msgstr "开发"
+
+#: ../applets/core/menumodel/system-menus.ui:55
+msgid "Other"
+msgstr "其他"
+
+#: ../applets/core/menumodel/system-menus.ui:65
+msgid "Computer"
+msgstr "计算机"
+
+#: ../applets/core/menumodel/system-menus.ui:72
+msgid "Trash"
+msgstr "回收站"
+
+#: ../applets/core/menumodel/system-menus.ui:88
+msgid "Connect to server..."
+msgstr "链接到服务器..."
+
+#: ../applets/core/menumodel/system-menus.ui:97
+msgid "Recent documents"
+msgstr "最近使用"
+
+#: ../applets/core/menumodel/system-menus.ui:109
+msgid "Run"
+msgstr "运行"
+
+#: ../applets/core/menumodel/system-menus.ui:116
+msgid "Log Out..."
+msgstr "注销用户..."
+
+#: ../applets/core/menumodel/system-menus.ui:121
+msgid "Shut down..."
+msgstr "关机"
+
+#: ../data/desktop/org.valapanel.application.appdata.xml.in:7
+msgid ""
+"Vala Panel is GTK+ 3 desktop panel. It is based on Vala and LXPanel ideas. "
+"It was be a fork of LXPanel in version 0.1.0, but in 0.2.0 it is completely "
+"rewritten in Vala. It offers same functionality as LXPanel, but:"
+msgstr ""
+"Vala Panel 是一个 GTK+ 3 桌面面板，它基于 Vala 与 LXPanel 的设计思想。 "
+"它是 LXPanel 0.1.0 版本的分支版本，但从 0.2.0 开始完全使用 Vala 重写。 "
+"它提供等同于 LXPanel 的功能，但是："
+
+#: ../data/desktop/org.valapanel.application.appdata.xml.in:11
+msgid "It has slightly more memory usage."
+msgstr "它会占用更多内存使用。"
+
+#: ../data/desktop/org.valapanel.application.appdata.xml.in:12
+msgid ""
+"X11 dependency is stripped from panel core (but it is not tested on another "
+"display servers, such as Wayland or Mir, right now)."
+msgstr ""
+"X11 依赖已经从面板核心部分接触（但目前尚未在其他显示服务框架测试，例如：Wayland, Mir）"
+
+#: ../data/desktop/org.valapanel.application.appdata.xml.in:14
+msgid ""
+"Some of former LXPanel plugins is separate binaries now and lives in another "
+"packages (Example is volume applet)."
+msgstr ""
+"一些早期 LXPanel 组件已经被拆分为独立的二进制应用并包含与其他软件包中（例如声音组件）"
+
+#: ../data/desktop/org.valapanel.application.appdata.xml.in:30
+msgid "Konstantin"
+msgstr ""
+
+#: ../applets/core/clock/clock.desktop.plugin.in:3
+msgid "Clock"
+msgstr "时钟"
+
+#: ../applets/core/clock/clock.desktop.plugin.in:4
+msgid "Digital clock with calendar"
+msgstr "数字时钟与日历"
+
+#: ../applets/core/dirmenu/dirmenu.desktop.plugin.in:4
+msgid "Directory menu"
+msgstr "目录菜单"
+
+#: ../applets/core/dirmenu/dirmenu.desktop.plugin.in:5
+msgid "This menu shows filesystem hierarchy, started from given dir."
+msgstr "本菜单展示从给定的目录开始的文件系统层次。"
+
+#: ../applets/core/kbled/kbled.desktop.plugin.in:5
+msgid "Indicators for CapsLock, NumLock, and ScrollLock keys"
+msgstr "用于大小写、数字、滚动锁定键的组件"
+
+#: ../applets/core/launchbar/launchbar.desktop.plugin.in:4
+msgid "Quickstart"
+msgstr "快速启动栏"
+
+#: ../applets/core/launchbar/launchbar.desktop.plugin.in:5
+msgid "Container for application launchers."
+msgstr "应用程序启动容器"
+
+#: ../applets/core/menumodel/menumodel.desktop.plugin.in:4
+msgid "Applications Menu"
+msgstr "主菜单"
+
+#: ../applets/core/menumodel/menumodel.desktop.plugin.in:5
+msgid "Applications or custom menu in GMenuModel format."
+msgstr "经典风格的应用程序菜单"
+
+#: ../applets/core/separator/separator.desktop.plugin.in:4
+msgid "Separator"
+msgstr "分割符"
+
+#: ../applets/core/separator/separator.desktop.plugin.in:5
+msgid "Draws separator and makes space on panel"
+msgstr "在面板绘制分割符并占用空间"
+
+#: ../applets/drawing/cpu/cpu.desktop.plugin.in:4
+msgid "CPU Graph"
+msgstr "CPU 监视器"
+
+#: ../applets/drawing/cpu/cpu.desktop.plugin.in:5
+msgid "Draws CPU graph on panel."
+msgstr "在面板绘制 CPU 监视器"
+
+#: ../applets/drawing/monitors/monitors.desktop.plugin.in:4
+msgid "Monitors Graph"
+msgstr "系统监视器"
+
+#: ../applets/drawing/monitors/monitors.desktop.plugin.in:5
+msgid "Draws monitors graph on panel (for CPU and RAM)."
+msgstr "在面板为 CPU 与内存绘制系统监视器。"
+
+#: ../applets/wnck/buttons/buttons.desktop.plugin.in:4
+msgid "Window Buttons"
+msgstr "窗口按钮"
+
+#: ../applets/wnck/buttons/buttons.desktop.plugin.in:5
+msgid "Shows window buttons (such as minimize, maximize and close)."
+msgstr "显示窗口按钮（如最小化，最大化与关闭）。"
+
+#: ../applets/wnck/deskno/deskno.desktop.plugin.in:4
+msgid "Desktop Number"
+msgstr "工作区"
+
+#: ../applets/wnck/deskno/deskno.desktop.plugin.in:5
+msgid "Shows desktop name or number. Switch on click."
+msgstr "显示桌面名称与数字，点击切换。"
+
+#: ../applets/wnck/icontasks/icontasks.desktop.plugin.in:4
+#: ../applets/wnck/icontasks/icontasks.desktop.plugin.in:5
+msgid "Icon Task List"
+msgstr "图标任务列表"
+
+#: ../applets/wnck/icontasks/icontasks.desktop.plugin.in:9
+msgid "tab-new-symbolic"
+msgstr ""
+
+#: ../applets/wnck/pager/pager.desktop.plugin.in:4
+msgid "Pager"
+msgstr "切换工作区"
+
+#: ../applets/wnck/pager/pager.desktop.plugin.in:5
+msgid "Shows desktops."
+msgstr "显示桌面。"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.desktop.plugin.in:4
+msgid "Tasklist Xfce"
+msgstr "进程任务列表（Xfce）"
+
+#: ../applets/wnck/tasklist-xfce/tasklist-xfce.desktop.plugin.in:5
+#: ../applets/wnck/tasklist/tasklist.desktop.plugin.in:5
+msgid "Shows opened windows."
+msgstr "显示打开的窗口"
+
+#: ../applets/wnck/tasklist/tasklist.desktop.plugin.in:4
+msgid "Tasklist"
+msgstr "进程任务列表"
+
+#: ../applets/wnck/wincmd/wincmd.desktop.plugin.in:4
+msgid "Show Desktop"
+msgstr "显示桌面"
+
+#: ../applets/wnck/wincmd/wincmd.desktop.plugin.in:5
+msgid "Can shows desktop and shades window."
+msgstr "可以显示与隐藏窗口。"
+
+#: ../applets/wnck/xembed/xembed.desktop.plugin.in:4
+msgid "XEmbed Tray"
+msgstr "通知区域"
+
+#: ../applets/wnck/xembed/xembed.desktop.plugin.in:5
+msgid "Old XEmbed-based tray"
+msgstr "旧的通知区域"
+
+#: ../data/desktop/org.valapanel.application.desktop.in:5
+msgid "Desktop Panel"
+msgstr "桌面面板"
+
+#: ../data/desktop/org.valapanel.application.desktop.in:7
+msgid "panel;launcher;menu;tasklist"
+msgstr ""
+
+#: ../data/desktop/org.valapanel.application.desktop.in:9
+msgid "vala-panel"
+msgstr ""
+
+#: ../applets/core/menumodel/system-menus.ui:116
+msgid "Lock screen..."
+msgstr "锁定屏幕..."

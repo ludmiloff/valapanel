@@ -1,0 +1,4 @@
+[Plugin]
+Name=Separator
+Description=Draws separator and makes space on panel
+Expandable=true
